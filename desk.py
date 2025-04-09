@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
-def process_video():
+def process_video(): #processing video
     # Open file picker to choose video
     video_path = filedialog.askopenfilename(title="Select CCTV Video",
                                             filetypes=[("MP4 files", "*.mp4"), ("All Files", "*.*")])
